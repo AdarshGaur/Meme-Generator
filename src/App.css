@@ -1,8 +1,8 @@
 * {
 	margin: 0%;
 	padding: 0%;
-	font-family: Karla -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	box-sizing: border-box;
+	font-family: Georgia, serif;
 }
 
 .navbar {
@@ -11,14 +11,40 @@
 	align-items: center;
 	font-size: 1.4rem;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-	background-color: antiquewhite;
+	background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+	color: white;
 }
 
 .navbar > img {
-	width: 102px;
+	width: 5rem;
 	margin-right: 2rem;
 }
 
 .navbar > h1 {
 	margin-right: auto;
+}
+
+main {
+	padding: 40px;
+}
+
+.form {
+	display: grid;
+	grid-template: 40px 40px / 1fr 1fr;
+	gap: 20px;
+}
+
+.form-input {
+	border-radius: 5px;
+	border: 1px solid #d5d4d8;
+	text-indent: 5px;
+}
+
+.form-button {
+	grid-column: 1 / -1;
+	border-radius: 5px;
+	background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+	border: none;
+	color: white;
+	cursor: pointer;
 }
