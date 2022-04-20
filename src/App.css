@@ -51,10 +51,15 @@ main {
 
 .meme {
 	position: relative;
+	margin-top: 20px;
+	/* padding: 10px; */
 }
 
 .meme-image {
-	max-width: 100%;
+	
+	/* max-width: 100%; */
+	width: 100%;
+	height: 100%;
 	border-radius: 5px;
 }
 
